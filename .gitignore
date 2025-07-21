@@ -18,3 +18,12 @@ override.tf.json
 **/*.tfvars
 **/terraform.tfplan
 **/.terraform.tfstate.lock.info
+
+# Private keys and certificates
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
