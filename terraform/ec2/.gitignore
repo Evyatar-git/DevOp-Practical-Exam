@@ -2,7 +2,6 @@
 **/.terraform.lock.hcl
 **/*.tfstate
 **/*.tfstate.backup
-**/*.tfvars
 **/terraform.tfplan
 **/.terraform.tfstate.lock.info
 
