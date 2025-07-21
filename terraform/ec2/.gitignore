@@ -1,7 +1,15 @@
-.terraform/
-.terraform.lock.hcl
-*.tfstate
-*.tfstate.backup
-*.tfvars
-terraform.tfplan
-.terraform.tfstate.lock.info
+**/.terraform/
+**/.terraform.lock.hcl
+**/*.tfstate
+**/*.tfstate.backup
+**/*.tfvars
+**/terraform.tfplan
+**/.terraform.tfstate.lock.info
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
